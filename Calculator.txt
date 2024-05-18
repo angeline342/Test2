@@ -1,0 +1,36 @@
+public class Calculator {
+    
+    integer x=10;
+    decimal y=20;
+        
+  
+        public void add()
+    {
+        decimal sum;
+        sum=x+y;
+        System.debug('Sum of '+x+' and '+y+' = '+sum);
+    }      
+    
+    	public void subtract()
+    {
+        decimal dif;
+        dif=x-y;
+        System.debug('Difference of '+x+' and '+y+' = '+dif);
+        
+    }
+          
+    public void multiply()
+    {
+        decimal mul;
+        mul=x*y;
+        System.debug('Product of '+x+' and '+y+' = '+mul);
+    }
+       public void divide()
+    {
+        decimal div;
+        div=x/y;
+        System.debug('Division  of '+x+' and '+y+' = '+div);
+    }  
+
+}
+ 
